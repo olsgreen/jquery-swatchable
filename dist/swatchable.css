@@ -1,0 +1,1 @@
+ul.swatchable{margin-top:10px;padding-left:0px}ul.swatchable li{display:inline-block;width:30px;height:30px;background-color:#ccc;border-radius:3px;margin-right:5px;border:2px solid transparent;cursor:pointer}ul.swatchable li:hover{border-color:rgba(0,0,0,0.1)}ul.swatchable li.selected{border-color:rgba(0,0,0,0.2)}

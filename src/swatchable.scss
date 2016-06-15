@@ -1,0 +1,29 @@
+/*
+ * Swatchable
+ * 
+ * @author Oliver Green <green2go@gmail.com>
+ * @license  https://opensource.org/licenses/MIT
+ */
+ul.swatchable {
+    margin-top: 10px;
+    padding-left: 0px;
+
+    li {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        background-color: #ccc;
+        border-radius: 3px;
+        margin-right: 5px;
+        border: 2px solid transparent;
+        cursor: pointer;
+
+        &:hover {
+            border-color: rgba(0, 0, 0, 0.10);
+        }
+
+        &.selected {
+            border-color: rgba(0, 0, 0, 0.20);
+        }
+    }
+}
