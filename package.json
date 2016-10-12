@@ -1,5 +1,6 @@
 {
   "name": "jquery-swatchable",
+  "version": "0.1.0",
   "private": false,
   "description": "A lightweight jQuery colour swatch picker.",
   "repository": "https://github.com/olsgreen/jquery-swatchable.git",
